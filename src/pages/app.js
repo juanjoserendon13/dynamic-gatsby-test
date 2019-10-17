@@ -5,7 +5,7 @@ import RandomPerson from '../modules/RandomPerson';
 const Router = () => {
   return (
     <MyRouter>
-      <RandomPerson path="/app/random-person" />
+      <RandomPerson path="/app/random-person/:results" />
     </MyRouter>
   );
 };
